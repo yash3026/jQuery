@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tickling Event Bubbling</title>
+</head>
+<body>
+  <div id="grandparent" style="padding: 20px; background-color: white; border: 2px solid black;">
+    Grandparent
+    <div id="parent" style="padding: 20px; background-color: white; border: 2px solid red;">
+      Parent
+      <div id="child" style="padding: 20px; background-color: white; border: 2px solid green;">
+        Child
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
